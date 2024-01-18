@@ -1,0 +1,155 @@
+/*	estilos.css
+	Sebastian Montoya Aleman 218088*/
+
+/* 	Header
+	Utilizado para mostrar el fondo de pantalla de 
+	cabezera de la pagina web												*/
+header { 
+	background-image: url("imagenes/fondoHeader.jpg");
+	display: inline-block;;
+	width: 100%;
+}
+
+/* 	LogoITSON
+	Utilizado para alinear el logo del ITSON a la 
+	izquierda de la pantalla												*/
+logoITSON {float: left;}
+
+/*	tituloPagina
+	Alinea el titulo de la pagina a la derecha, cambia el color a
+	gris, el tamano de la letra es 36pts, es movido 560 pixeles del margen
+	izquierdo, es en negritas y tiene como fuente Arial						*/
+tituloPagina {
+	text-align: right; 
+	color: #FFFFFF; 
+	font-size: 36pt; 
+	margin-left: 560px;
+	font-weight: bold;
+	font-family: arial;
+}
+
+/* 	LogoEmail
+	Utilizado para alinear el simbolo de email a la derecha de la pantalla	*/
+logoEmail {float: right;}
+
+/*	nav	
+	Para la barra de navegacion, el relleno es gris, el texto es 
+	alineado a la izquierda y se agrega padding adicional 					*/
+nav {
+	background-color: #e3e3e3; 
+	text-align: left;
+	width: 100%;
+	text-decoration: none;
+	list-style: none;
+	
+	float:left;
+	clear:none;
+	
+	padding: 0 4px 0px 4px;
+    border-width: 0 1px 0 1px;
+}
+/*	Aqui se quita el subrayado de lo links de la barra navegadora			*/
+nav a {
+    text-decoration: none;
+}
+/*	Se hace que cuando se pasa el cursor por los links de la barra 
+	navegadora, se cambian a negritas										*/
+nav a:hover {
+    font-weight:bold;
+}
+
+/*	main
+	Para la parte principal de una pagina, se mueve 28 pixeles para
+	acomodar mejor la pagina y se inserta una imagen de fondo				*/
+main { 
+	bottom: -28px;
+	background-image: url("imagenes/fondo.jpg");	
+}
+
+/*	Aqui se quita el subrayado de lo links de la tabla de horario semanal	*/
+main a {
+    text-decoration: none;
+}
+
+/*	Se hace que cuando se pasa el cursor por los links de la tabla, 
+	se cambian a cursiva/italicas											*/
+main a:hover {
+    font-weight: lighter;
+}
+
+/* 	footer
+	Se hace para que el pie de pagina llene toda la pantalla, ademas
+	de cambiar el color y tipo de fuente.									*/
+footer {
+	width: 100%;
+	color: #202020;
+	font-family: arial;
+	font-weight: bold;
+}
+
+/*	Aqui se quita el subrayado de lo links del pie de pagina				*/
+footer a {
+    text-decoration: none;
+}
+
+/*	Se hace que cuando se pasa el cursor por los links de la tabla, 
+	se cambian a cursiva/italicas											*/
+footer a:hover {
+    font-weight: lighter;
+
+}
+
+/*	El titulo de una tabla de escribe en negritas y es grande.				*/
+caption {
+    font-weight: bold;
+    font-size: large;
+}
+
+/*	Las lineas de la tabla son de 2 pixeles, es solida y negra.				*/
+table {
+    border: 2px solid black;
+}
+
+/*	Las cabezeras de la tablas tienen padding de 6 pixeles, las lineas son de
+	4 pixeles solidas, utilizan la fuente arial y tiene como color azul		*/
+th{
+    padding: 6px; 
+	border: 4px solid;
+	font-family: arial;
+	background-color: #6da2f7;
+}
+
+/* 	Todas las celdas que no tienen contenido especial tienen lineas de 2 
+	pixeles	solidas, utilizan arial y tiene como color blanco.				*/
+td {
+    border: 2px solid;
+	font-family: arial;
+	background-color: #ffffff;
+}
+
+/* 	Todas las celdas que tienen contenido especial tienen letras negritas,	
+	en arial, alineadas al centro y son de color azul.						*/
+td.relleno1 {
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+    background-color: #b5d1ff;
+}
+
+/* 	Unica para mostrar la clase de Arquitectura de software en el horario.
+	tienen letras negritas,	en arial, alineadas al centro 
+	y son de color amarillo.												*/
+td.relleno2 {
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+    background-color: #ffe894;
+}
+
+/* 	Para mostrar las horas en el horario o el titulo de hobby
+	En arial, alineadas al centro y son de color azul claro					*/
+td.tituloHora {
+	font-family: arial;
+	text-align: center;
+    background-color: #D1E9FF;
+}

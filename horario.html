@@ -6,19 +6,17 @@
 -->
 <html>
 	<head> 
+		<link rel="stylesheet" type="text/css" href="estilos.css" />
 		<meta charset="utf-8">
 		<title>Horario Semanal</title>
 	</head>
-	
 	<body> 
 		<header> 
-			<img src="imagenes/ITSON.png" alt="Logo ITSON" align="left">
-			<h1 align="right">Pagina Montoya</h1> 		
+			<logoITSON> <img src="imagenes/ITSON.png" alt="Logo ITSON"> </logoITSON>
+			<tituloPagina>Pagina Montoya</tituloPagina> 
+			<logoEmail> <a href="mailto:sebastian.montoya218008@potros.itson.edu.mx"> <img src="imagenes/email.png" alt="Email"> </a> </logoEmail>
 			<br />
-			<hr / >
-		</header>
-		
-		<nav>
+		</header><nav>
 			<!--
 				index.html
 				horario.html
@@ -26,27 +24,24 @@
 				aficiones.html
 				contactame.html TIENE ACENTO EN LA 1RA A
 			-->
-			<p align="center">
+			<p>
 			<a href="index.html">Menu Principal</a>  | 
 			<a href="horario.html">Horario</a>  | 
 			<a href="descripcion.html">Descripcion de Cursos</a>  | 
 			<a href="aficiones.html">Aficiones</a>
 			</p>
 			<hr / >
-		</nav>
-		
-		<main> 
-			
+		</nav><main> 			
 			<table align="center" width="1600" border="1" cellpadding="2"> 
 				<caption> 
-					<b> Horario Semanal </b> 
+					<h1 style="color:black"> Horario Semanal </h1> 
 				</caption>
 				
 				<colgroup> 
 					<col style="background-color:#b5d1ff">
 				</colgroup>
 				
-				<thead style="background-color:#6da2f7"> 
+				<thead> 
 					<tr>
 						<th>Hora</th>
 						<th>Lunes</th>
@@ -55,48 +50,47 @@
 						<th>Jueves</th>
 						<th>Viernes</th>
 					</tr>
-				</thead>
-				
+				</thead>				
 				<tbody> 
-					<tr> <td>9:30am</td> <td /> <td /> <td /> <td /> <td /> </tr>
+					<tr> <td class="tituloHora">9:30am</td> <td /> <td /> <td /> <td /> <td /> </tr>
 					<tr> 
-						<td>10:00am</td> 
+						<td class="tituloHora">10:00am</td> 
 						<td></td> 
-						<td align="center" rowspan="3" style="background-color:#b5d1ff"> <a href="descripcion.html#C1078C"> C 1078C - 1 </a> <br /> Aplicaciones Moviles <br /> LV1822</td> 
+						<td rowspan="3" class="relleno1"> <a href="descripcion.html#C1078C"> C 1078C - 1 </a> <br /> Aplicaciones Web <br /> LV1822</td> 
 						<td></td>
-						<td align="center" rowspan="3" style="background-color:#b5d1ff"> <a href="descripcion.html#C1078C"> C 1078C - 1 </a> <br /> Aplicaciones Moviles <br /> LV1822</td> 
+						<td rowspan="3" class="relleno1"> <a href="descripcion.html#C1078C"> C 1078C - 1 </a> <br /> Aplicaciones Web <br /> LV1822</td> 
 						<td></td> 
 					</tr>
-					<tr> <td>10:30am</td> <td /> <td /> <td /> </tr>
-					<tr> <td>11:00am</td> <td /> <td /> <td /> </tr>
-					<tr> <td>11:30am</td> <td /> <td /> <td /> <td /> <td /></tr>
-					<tr> <td>12:00am</td> <td /> <td /> <td /> <td /> <td /></tr>
-					<tr> <td>12:30am</td> <td /> <td /> <td /> <td /> <td /> </tr>
-					<tr> <td>1:00pm</td> <td /> <td /> <td /> <td /> <td /></tr>
-					<tr> <td>1:30pm</td> <td /> <td /> <td /> <td /> <td /></tr>
-					<tr> <td>2:00pm</td> <td /> <td /> <td /> <td /> <td /></tr>
-					<tr> <td>2:30pm</td> <td /> <td /> <td /> <td /> <td /></tr>
+					<tr> <td class="tituloHora">10:30am</td> <td /> <td /> <td /> </tr>
+					<tr> <td class="tituloHora">11:00am</td> <td /> <td /> <td /> </tr>
+					<tr> <td class="tituloHora">11:30am</td> <td /> <td /> <td /> <td /> <td /></tr>
+					<tr> <td class="tituloHora">12:00am</td> <td /> <td /> <td /> <td /> <td /></tr>
+					<tr> <td class="tituloHora">12:30am</td> <td /> <td /> <td /> <td /> <td /> </tr>
+					<tr> <td class="tituloHora">1:00pm</td> <td /> <td /> <td /> <td /> <td /></tr>
+					<tr> <td class="tituloHora">1:30pm</td> <td /> <td /> <td /> <td /> <td /></tr>
+					<tr> <td class="tituloHora">2:00pm</td> <td /> <td /> <td /> <td /> <td /></tr>
+					<tr> <td class="tituloHora">2:30pm</td> <td /> <td /> <td /> <td /> <td /></tr>
 					<tr > 
-						<td>3:00pm</td> 
-						<td align="center" rowspan="2" style="background-color:#b5d1ff"> <a href="descripcion.html#C1076C">C 1076C - 4 </a> <br /> Metodos Num Computacionales<br /> LV1022</td> 
+						<td class="tituloHora">3:00pm</td> 
+						<td rowspan="3" class="relleno1"> <a href="descripcion.html#C1076C">C 1076C - 4 </a> <br /> Metodos Num Computacionales<br /> LV1022</td> 
 						<td></td>
-						<td align="center" rowspan="2" style="background-color:#b5d1ff"> <a href="descripcion.html#C1076C">C 1076C - 4 </a> <br /> Metodos Num Computacionales<br /> LV1022</td> 
+						<td rowspan="3" class="relleno1"> <a href="descripcion.html#C1076C">C 1076C - 4 </a> <br /> Metodos Num Computacionales<br /> LV1022</td> 
 						<td></td>
-						<td align="center" rowspan="2" style="background-color:#b5d1ff"> <a href="descripcion.html#C1076C">C 1076C - 4 </a> <br /> Metodos Num Computacionales<br /> LV1022</td>  
+						<td rowspan="3" class="relleno1"> <a href="descripcion.html#C1076C">C 1076C - 4 </a> <br /> Metodos Num Computacionales<br /> LV1022</td>  
 					</tr>
-					<tr> <td>3:30pm</td> <td /> <td /> </tr>
-					<tr> <td>4:00pm</td> <td /> <td /> <td /> <td /> <td /></tr>
+					<tr> <td class="tituloHora">3:30pm</td> <td /> <td /> </tr>
+					<tr> <td class="tituloHora">4:00pm</td> <td /> <td /> </tr>
 					<tr> 
-						<td>4:30pm</td> 
-						<td align="center" rowspan="3" style="background-color:#ffe894"> <a href="descripcion.html#C1081C">C 1081C - 1 </a> <br /> Arquitectura de Software<br /> AV1613</td> 
+						<<td class="tituloHora">4:30pm</td> 
+						<td rowspan="3" class="relleno2"> <a href="descripcion.html#C1081C">C 1081C - 1 </a> <br /> Arquitectura de Software<br /> AV1613</td> 
 						<td></td>
-						<td align="center" rowspan="3" style="background-color:#ffe894"> <a href="descripcion.html#C1081C">C 1081C - 1 </a><br /> Arquitectura de Software<br /> AV1613</td> 
+						<td rowspan="3" class="relleno2"> <a href="descripcion.html#C1081C">C 1081C - 1 </a><br /> Arquitectura de Software<br /> AV1613</td> 
 						<td></td>
 						<td></td>
 					</tr>
-					<tr> <td>5:00pm</td> <td /> <td /> <td /> </tr>
-					<tr> <td>5:30pm</td> <td /> <td /> <td /></tr>
-					<tr> <td>6:00pm</td> <td /> <td /> <td /> <td /> <td /></tr>
+					<tr> <td class="tituloHora">5:00pm</td> <td /> <td /> <td /> </tr>
+					<tr> <td class="tituloHora">5:30pm</td> <td /> <td /> <td /></tr>
+					<tr> <td class="tituloHora">6:00pm</td> <td /> <td /> <td /> <td /> <td /></tr>
 				</tbody>
 			</table >
 			
@@ -109,9 +103,7 @@
 				<caption> <b> Clases Virtules </b></caption>
 			</table>
 			-->
-		</main>
-		
-		<footer> 
+		</main>	<footer> 
 			<hr />
 			<p align="right">Sebastian Montoya Aleman 218008 | <a href="contactame.html">Contactame</a> </p>
 		</footer>
