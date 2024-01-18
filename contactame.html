@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+	index.html
+	Paginal inicial
+	Sebastian Montoya Aleman 218008
+-->
+<html>
+	<head> 
+		<meta charset="utf-8">
+		<title>Contactame</title>
+	</head>
+	
+	<body>
+		<form action ="mailto: sebastian.montoya218008@potros.itson.edu.mx?subject=Encuesta"
+              method=post enctype="text/plain">
+		<header> 
+			<img src="imagenes/ITSON.png" alt="Logo ITSON" align="left">
+			<h1 align="right">Pagina Montoya</h1> 		
+			<br />
+			<hr / >
+		</header>
+		
+		<nav>
+			<!--
+				index.html
+				horario.html
+				descripcion.html TIENE ACENTO EN LA O
+				aficiones.html
+				contactame.html TIENE ACENTO EN LA 1RA A
+			-->
+			<p align="center">
+			<a href="index.html">Menu Principal</a>  | 
+			<a href="horario.html">Horario</a>  | 
+			<a href="descripcion.html">Descripcion de Cursos</a>  | 
+			<a href="aficiones.html">Aficiones</a>  
+			</p>
+			<hr / >
+		</nav>
+		
+		<main> 
+			<h1 align="center"> Por favor de llenar el formulario</h1>
+			<b> Nombre: </b> <input type="text" id="nombreID" size="35" maxlength="70" required> 
+			
+			<br />
+			<br />
+			
+			<b> E-Mail: </b> <input type="text" id="emailID" size="35" maxlength="100" required>
+			<br />
+			<br />
+			
+			<b> Direccion: </b> <input type="text" id="direccionID" size="35" maxlength="100">
+			<br />
+			<br />
+			
+			
+			
+			<b> Genero: </b>
+			<input type="radio" id="hombre" name="genero" value="hombre">
+			<label for="hombre">Masculino</label>
+			<input type="radio" id="mujer" name="genero" value="mujer">
+			<label for="hombre">Femenino</label>
+			
+			<br />
+			<br />
+			
+			<b> Estudiante de ITSON: </b>
+			<input type="checkbox" id="estudianteITSON">
+			
+			<br />
+			<br />
+			
+			<b> Lugar de Origen: </b>
+			<select name="lugar">
+				<option> Sonora </option>
+				<option> Otro estado en Mexico </option>
+				<option> Extranjero </option>
+			</select>
+			
+			<br />
+			<br />
+			
+			<b> Mensaje: </b>
+			<textarea name="mensaje" rows="5" cols="80"> </textarea>
+			
+			<br />
+			<br />
+			<input type="submit" name="enviar" value="Enviar">
+			<input type="reset" name="borrar" value="Borrar">
+		</main>
+		
+		<footer> 
+			<hr />
+			<p align="right">Sebastian Montoya Aleman 218008 | <a href="contactame.html">Contactame</a> </p>
+		</footer>
+	</body>
+</html>
